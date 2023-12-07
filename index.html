@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Api practise</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <label for="id">Get Phone Number:</label>
+        <input type="text" placeholder="User Id" id="user-id" />
+        <button
+          class="bolder-font"
+          type="submit"
+          id="get-phone-number"
+          onclick="getPhoneNumber()"
+        >
+          search
+        </button>
+      </nav>
+      <div id="phone-number"></div>
+    </header>
+    <main>
+      <table id="user-data">
+        <tr id="categories">
+          <td class="bolder-font">ID</td>
+          <td class="bolder-font">NAME</td>
+          <td class="bolder-font">CITY</td>
+        </tr>
+      </table>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
